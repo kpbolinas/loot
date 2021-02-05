@@ -24,9 +24,11 @@ loot_<last tag>-<revisions since tag>-g<short revision ID>_<branch>-<platform>.7
 
 ## Building LOOT
 
+Refer to `.github/workflows/release.yml` for the build process.
+
 ### Windows
 
-Refer to `.github/workflows/release.yml` for the build process. The GitHub Actions workflow assumes that [CMake](https://cmake.org), curl, gettext, Git, Inno Setup 6, [Node.js](https://nodejs.org/), Python, Visual Studio 2017, Yarn and 7-zip are already installed.
+The GitHub Actions workflow assumes that [CMake](https://cmake.org), curl, gettext, Git, Inno Setup 6, [Node.js](https://nodejs.org/), Python, Visual Studio 2017, Yarn and 7-zip are already installed.
 
 ### Linux
 
